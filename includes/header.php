@@ -6,6 +6,6 @@
   </head>
   <body>
     <header>
-      <a href="index.php"><img src="images/Creditenings.png" alt="NeoBank" /></a>
+      <a href="Bank.php"><img src="images/Creditenings.png" alt="Creditenings" /></a>
     </header>
     <section>
