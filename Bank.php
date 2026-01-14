@@ -12,7 +12,7 @@ $accounts = [
 $customer = new Customer("Kenneth", "Guanlao", $accounts);
 ?>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="css/styles.css">
 
 <section>
 
