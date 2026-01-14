@@ -12,15 +12,13 @@ body {
 
 header {
   height: 96px;
-  overflow: hidden;
-  width: max-content;
-  margin: 0 auto 0 auto;
+  overflow: visible;
 }
 
 header img {
-  height: 50px;
+  height: 200px;
   display: block;
-  margin: 25px 0 0 0;
+  margin: 15px 0 0 0;
 }
 
 h1 {
