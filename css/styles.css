@@ -1,12 +1,12 @@
 body {
-    background-color: #fafafa; /* background color remains */
+    background-color: #0b0f14; /* background color remains */
     font-family: Arial, sans-serif;
 }
 
 .bank-card {
     width: 600px;
     margin: 50px auto;
-    background-color: #132a44;
+    background-color: #dfdfdf;
     padding: 25px;
     border-radius: 10px;
     color: white;
