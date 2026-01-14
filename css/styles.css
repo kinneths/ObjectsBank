@@ -13,12 +13,14 @@ body {
 header {
   height: 96px;
   overflow: visible;
+  width: max-content;
+  margin: 0 auto 0 auto;
 }
 
 header img {
   height: 120px;
   display: block;
-  margin: 15px 0 0 0;
+  margin: 25px 0 0 0;
 }
 
 h1 {
