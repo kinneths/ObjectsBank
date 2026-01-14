@@ -9,7 +9,7 @@ $accounts = [
     new Account("44112233", "Investment", -3000)
 ];
 
-$customer = new Customer("Juan", "Dela Cruz", $accounts);
+$customer = new Customer("Kenneth", "Guanlao", $accounts);
 ?>
 
 <!DOCTYPE html>
@@ -17,7 +17,7 @@ $customer = new Customer("Juan", "Dela Cruz", $accounts);
 <head>
     <meta charset="UTF-8">
     <title>Bank Accounts</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
