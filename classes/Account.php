@@ -1,27 +1,13 @@
 <?php
-declare(strict_types = 1);
-class Account 
-{
-    public int $accountNumber;
+
+class Account {
+    public string $accountNumber;
     public string $accountType;
     public float $balance;
 
-    public function __construct(int $number, string $type, float $balance = 0.00)
-    {
-        $this->number = $number;
-        $this->type = $type;
+    public function __construct($accountNumber, $accountType, $balance) {
+        $this->accountNumber = $accountNumber;
+        $this->accountType = $accountType;
         $this->balance = $balance;
-    }
-
-    public function deposit(float $amount): float
-    {
-        $this->balance += $amount;
-        return $this->balance;
-    }
-
-    public function withdraw(float $amount): float
-    {
-        $this->balance -= $amount;
-        return $this->balance;
     }
 }
