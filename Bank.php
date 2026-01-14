@@ -12,17 +12,9 @@ $accounts = [
 $customer = new Customer("Kenneth", "Guanlao", $accounts);
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Bank Accounts</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+<link rel="stylesheet" href="styles.css">
 
-<div class="bank-card">
-    <img src="images/bank-logo.png" alt="Bank Logo" class="logo">
+<section>
 
     <h2>NAME: <?php echo $customer->getFullName(); ?></h2>
 
@@ -47,7 +39,5 @@ $customer = new Customer("Kenneth", "Guanlao", $accounts);
         <?php endforeach; ?>
 
     </table>
-</div>
+</section>
 
-</body>
-</html>
