@@ -1,6 +1,7 @@
 <?php
 include 'classes/Account.php';
 include 'classes/Customer.php';
+include 'includes/header.php';
 
 $accounts = [
     new Account("20489446", "Checking", -1500),
@@ -41,3 +42,4 @@ $customer = new Customer("Kenneth", "Guanlao", $accounts);
     </table>
 </section>
 
+<?php include 'includes/footer.php'; ?>
